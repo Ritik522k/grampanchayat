@@ -1,0 +1,119 @@
+body{
+  margin:10px 50px;
+  background-color: #f7fbe1;
+}
+
+.logo{
+  height:100px;
+  width:100px;
+  position: relative;
+  border-radius: 100%;
+}
+
+.logos{
+  padding: 10px;
+}
+
+.navbar{
+  background-color: #184d47;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding:0 35px;
+}
+
+.nav-link{
+  font-weight: 200;
+  color: #fff;
+}
+
+.nav-link:hover{
+  background-color: white;
+}
+
+.marquee{
+background-color: yellow;
+}
+
+.banner{
+  height:400px;
+  width:300px;
+  margin-top: 20px;
+}
+
+
+#content{
+padding:20px;
+margin-top: 20px;
+text-align: center;
+background-color: #bfdcae;
+height:700px;
+}
+.media{
+  text-align: center;
+}
+.img1{
+  height:400px;
+  width:500px;
+  float:left;
+}
+
+.notification-box{
+  box-shadow: 1px 1px 10px 2px #333;
+  border-radius: 5px;
+}
+
+.card{
+  position: relative;
+  left: 190px;
+}
+
+.moving-body{
+  padding:4px;
+  height:300px;
+  text-align: center;
+}
+
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 50px -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.card-img{
+  height:100px;
+  width:100px;
+}
